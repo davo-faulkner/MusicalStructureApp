@@ -15,6 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TopChartsActivity">
+            <action android:label="Top Charts" />
+            <action android:parent=".MainActivity" />
+        </activity>
+        <activity android:name=".NewReleasesActivity">
+            <action android:label="New Releases" />
+            <action android:parent=".MainActivity" />
+
+        </activity>
     </application>
 
 </manifest>
