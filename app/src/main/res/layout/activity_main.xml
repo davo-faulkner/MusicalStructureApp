@@ -11,12 +11,12 @@
     tools:context="co.davo.musicalstructureapp.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/top_charts_textView"
+        android:text="@string/top_charts_label"
+        style="@style/list_item_style" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/new_releases_textView"
+        style="@style/list_item_style"
+        android:text="@string/new_releases_label" />
 </LinearLayout>
