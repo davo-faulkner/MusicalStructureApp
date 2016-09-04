@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         TextView topChartsTextView = (TextView) findViewById(R.id.top_charts_textView);
 
         topChartsTextView.setOnClickListener(new OnClickListener() {
+            @Override
             public void onClick(View view) {
                 Intent topChartsIntent = new Intent(MainActivity.this, TopChartsActivity.class);
 
@@ -24,6 +25,18 @@ public class MainActivity extends AppCompatActivity {
 
             }
 
+        });
+
+        TextView newReleasesTextView = (TextView) findViewById(R.id.new_releases_textView);
+
+        newReleasesTextView.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent newReleasesIntent = new Intent(MainActivity.this, NewReleasesActivity.class);
+
+                startActivity(newReleasesIntent);
+
+            }
         });
     }
 }
