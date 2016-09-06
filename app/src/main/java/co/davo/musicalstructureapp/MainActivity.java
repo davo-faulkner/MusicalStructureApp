@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.TextView;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,9 +14,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView topChartsTextView = (TextView) findViewById(R.id.top_charts_textView);
+        Button topChartsButton = (Button) findViewById(R.id.top_charts_button);
 
-        topChartsTextView.setOnClickListener(new OnClickListener() {
+        topChartsButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent topChartsIntent = new Intent(MainActivity.this, TopChartsActivity.class);
@@ -27,9 +27,9 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        TextView newReleasesTextView = (TextView) findViewById(R.id.new_releases_textView);
+        Button newReleasesButton = (Button) findViewById(R.id.new_releases_button);
 
-        newReleasesTextView.setOnClickListener(new OnClickListener() {
+        newReleasesButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent newReleasesIntent = new Intent(MainActivity.this, NewReleasesActivity.class);
