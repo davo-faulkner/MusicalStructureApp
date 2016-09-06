@@ -37,4 +37,8 @@
         android:text="@string/top_charts_label"
         style="@style/label_text_style" />
 
+    <TextView
+        android:text="@string/top_charts_plan"
+        style="@style/plan_text_style" />
+
 </LinearLayout>

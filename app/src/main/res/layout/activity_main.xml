@@ -37,4 +37,8 @@
         android:text="@string/now_playing_label"
         style="@style/label_text_style" />
 
+    <TextView
+        android:text="@string/now_playing_plan"
+        style="@style/plan_text_style" />
+
 </LinearLayout>

@@ -20,11 +20,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent topChartsIntent = new Intent(MainActivity.this, TopChartsActivity.class);
-
                 startActivity(topChartsIntent);
-
             }
-
         });
 
         Button newReleasesButton = (Button) findViewById(R.id.new_releases_button);
@@ -33,9 +30,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent newReleasesIntent = new Intent(MainActivity.this, NewReleasesActivity.class);
-
                 startActivity(newReleasesIntent);
-
             }
         });
     }

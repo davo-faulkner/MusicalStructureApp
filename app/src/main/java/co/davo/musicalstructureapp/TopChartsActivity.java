@@ -19,7 +19,6 @@ public class TopChartsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent nowPlayingIntent = new Intent(TopChartsActivity.this, MainActivity.class);
-
                 startActivity(nowPlayingIntent);
             }
         });
@@ -30,9 +29,7 @@ public class TopChartsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent newReleasesIntent = new Intent(TopChartsActivity.this, NewReleasesActivity.class);
-
                 startActivity(newReleasesIntent);
-
             }
         });
     }
