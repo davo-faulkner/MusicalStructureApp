@@ -3,7 +3,7 @@
     <string name="top_charts_label">Top Charts</string>
     <string name="new_releases_label">New Releases</string>
     <string name="now_playing_label">Now Playing</string>
-    <string name="now_playing_plan">Insert now playing plan here</string>
-    <string name="top_charts_plan">Insert top charts plan here</string>
-    <string name="new_releases_plan">Insert new releases plan here</string>
+    <string name="now_playing_plan">This screen will show the transport controls, and will use the Spotify Android SDK for functionality as shown at https://developer.spotify.com/technologies/spotify-android-sdk/.</string>
+    <string name="top_charts_plan">This screen will show the top charts, and will use the Spotify Android SDK for functionality as shown at https://developer.spotify.com/technologies/spotify-android-sdk/</string>
+    <string name="new_releases_plan">This screen will show the new releases, and will use the Spotify Android SDK for functionality as shown at https://developer.spotify.com/technologies/spotify-android-sdk/</string>
 </resources>
